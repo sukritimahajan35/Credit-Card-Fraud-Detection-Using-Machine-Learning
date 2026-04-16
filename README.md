@@ -1,6 +1,6 @@
-💳** Credit Card Fraud Detection Using Machine Learning**
+💳 **Credit Card Fraud Detection Using Machine Learning**
 
-📌 **Project Overview**
+📌 **Project Overview**<br>
 This project builds an end-to-end Machine Learning pipeline to detect fraudulent credit card transactions in the finance and banking domain. The goal is to classify transactions as Fraud (1) or Legitimate (0) using transactional and behavioral features.
 
 🎯 **Objectives**
