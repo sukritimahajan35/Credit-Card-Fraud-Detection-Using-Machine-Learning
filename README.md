@@ -3,7 +3,7 @@
 ## 📌 Project Overview  
 This project develops an end-to-end Machine Learning pipeline to detect fraudulent credit card transactions. 
 
-## 🎯 Objectives  
+## 🎯 Objective
 Classify transactions as **Fraud (1)** or **Legitimate (0)** using behavioral and transactional features.
 
 ## 📊 Dataset  
