@@ -12,6 +12,12 @@ Classify transactions as **Fraud (1)** or **Legitimate (0)** using behavioral an
 • Numeric & categorical variables  
 • Highly imbalanced data  
 
+📥 **Dataset Source:**  
+This dataset is taken from a **synthetic Credit Card Fraud dataset available on Kaggle**, designed to simulate real-world financial transaction behavior.
+
+Dataset available here:  
+[Download Dataset](https://www.kaggle.com/datasets/prince7489/credit-card-fraud-2025)
+
 ## 🛠️ Preprocessing  
 • Duplicate & missing value checks  
 • Outlier removal (IQR Method)  
