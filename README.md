@@ -1,58 +1,58 @@
-💳 **Credit Card Fraud Detection Using Machine Learning**
+# 💳 Credit Card Fraud Detection Using Machine Learning  
 
-📌 **Project Overview**<br>
-This project builds an end-to-end Machine Learning pipeline to detect fraudulent credit card transactions in the finance and banking domain. The goal is to classify transactions as Fraud (1) or Legitimate (0) using transactional and behavioral features.
+## 📌 Project Overview  
+This project develops an end-to-end Machine Learning pipeline to detect fraudulent credit card transactions. The objective is to classify transactions as **Fraud (1)** or **Legitimate (0)** using behavioral and transactional features.
 
-🎯 **Objectives**<br>
-Perform structured data cleaning and preprocessing
-Conduct Exploratory Data Analysis (EDA)
-Handle class imbalance effectively
-Train and compare multiple ML models
-Evaluate models using business-relevant metrics
+## 🎯 Objectives  
+• Data cleaning and preprocessing  
+• Exploratory Data Analysis (EDA)  
+• Class imbalance handling  
+• Training and comparing multiple ML models  
+• Evaluating performance using business-relevant metrics  
 
-📊 **Dataset Information**<br>
-500,000 credit card transactions
-15 predictor features + 1 target variable (Fraud_Flag)
-Mix of numeric and categorical features
-Highly imbalanced dataset
+## 📊 Dataset  
+• 500,000 transactions  
+• 15 features + 1 target (`Fraud_Flag`)  
+• Numeric & categorical variables  
+• Highly imbalanced data  
 
-🛠️ **Data Preprocessing Steps**<br>
-Missing value validation
-Duplicate removal
-Outlier removal (IQR Method)
-Skewness correction (Yeo-Johnson Transformation)
-Label encoding for categorical variables
-Feature scaling using StandardScaler
-Class imbalance handling using undersampling
+## 🛠️ Preprocessing  
+• Duplicate & missing value checks  
+• Outlier removal (IQR Method)  
+• Skewness correction (Yeo-Johnson Transformation)  
+• Encoding categorical variables  
+• Feature scaling (StandardScaler)  
+• Undersampling for imbalance handling  
 
-🤖 **Models Implemented**<br>
-Logistic Regression
-Naive Bayes
-Support Vector Machine (SVM)
-Random Forest
-AdaBoost
-XGBoost
-K-Nearest Neighbors (KNN)
-Voting Classifier (Ensemble)
-Stacking Classifier
+## 🤖 Models  
+• Logistic Regression  
+• Naive Bayes  
+• Support Vector Machine (SVM)  
+• Random Forest  
+• AdaBoost  
+• XGBoost  
+• K-Nearest Neighbors (KNN)  
+• Voting Classifier  
+• Stacking Classifier  
 
-📈 **Evaluation Metrics**<br>
-Models were compared using:
-Accuracy
-Precision
-Recall
-F1-Score
-Confusion Matrix
-ROC-AUC
+## 📈 Evaluation  
+• Accuracy  
+• Precision  
+• Recall  
+• F1-Score  
+• Confusion Matrix  
+• ROC-AUC  
 
-Tree-based ensemble models (especially Random Forest and Voting Classifier) delivered the best fraud detection performance by effectively balancing precision and recall.
+**Random Forest and Voting Classifier delivered the best fraud detection performance.**
 
-🚀 **Tech Stack**<br>
-Python
-Pandas, NumPy
-Matplotlib, Seaborn
-Scikit-learn
-XGBoost
+## 🚀 Tech Stack  
+• Python  
+• Pandas  
+• NumPy  
+• Matplotlib  
+• Seaborn  
+• Scikit-learn  
+• XGBoost  
 
-📌 **Conclusion**<br>
-This project demonstrates how proper data preprocessing, imbalance handling, and ensemble modeling significantly improve fraud detection performance. It provides a scalable and reproducible framework for real-world financial risk analytics.
+## 📌 Conclusion  
+A scalable and reproducible ML framework for financial fraud detection aligned with real-world business objectives.
